@@ -5,6 +5,6 @@ export const MenuContainer = styled.div`
     color: white;
   }
   span {
-    color: #f60085;
+    color: #ed138d;
   }
 `;
