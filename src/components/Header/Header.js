@@ -5,7 +5,7 @@ import { HeaderContainer } from "./styles/HeaderStyle";
 
 const Header = () => {
   return (
-    <HeaderContainer>
+    <HeaderContainer className="navbar fixed-top ">
       <Logo />
       <Menu />
     </HeaderContainer>
