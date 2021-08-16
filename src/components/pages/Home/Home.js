@@ -11,7 +11,6 @@ const Home = () => {
       </div>
       <div className="link container">
         <div>
-          {" "}
           <a
             className="link1"
             href="#Get my Cv
@@ -21,7 +20,6 @@ const Home = () => {
           </a>
         </div>
         <div>
-          {" "}
           <a className="link2" href="#Contact me">
             Contact me
           </a>
