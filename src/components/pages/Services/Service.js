@@ -1,9 +1,5 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import faGithub, {
-  faCrop,
-  faCropAlt,
-  faPlayCircle,
-} from "@fortawesome/free-solid-svg-icons";
+import { faCrop, faCropAlt } from "@fortawesome/free-solid-svg-icons";
 import React from "react";
 import { ServiceConatiner } from "./ServiceStyle";
 
