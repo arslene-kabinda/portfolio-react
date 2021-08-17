@@ -13,7 +13,7 @@ export const AboutContainer = styled.div`
   }
   .background {
     background-color: #000000;
-    border: 5px solid #ed138d;
+    border: 5px solid ;
     margin-left: 200px;
     width: 35%;
     margin-top: 20px;
