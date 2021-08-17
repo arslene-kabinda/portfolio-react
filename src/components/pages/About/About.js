@@ -27,7 +27,7 @@ const About = () => {
               I am Arslène Kabinda Fullstact Developer, passionate about digital
               and specialized in the field of web and mobile web
               development.lorem ipsum dolor amet sit agua eta manus jugurta
-              lorem ipsum dolo
+              lorem ipsum 
             </p>
           </div>
           <div className="link">

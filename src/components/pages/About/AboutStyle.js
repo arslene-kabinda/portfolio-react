@@ -48,7 +48,6 @@ export const AboutContainer = styled.div`
     padding: 5px;
   }
   .about_speech {
-    border: 1px solid red;
     width: 50%;
     margin-left: 20px;
     padding: 20px;
