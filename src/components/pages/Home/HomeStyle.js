@@ -21,6 +21,7 @@ export const HomeContainer = styled.div`
     color: #ed138d;
     font-weight: bold;
     font-size: 3rem;
+    
   }
   .link {
     padding: 30px;
@@ -31,14 +32,14 @@ export const HomeContainer = styled.div`
   .link1 {
     background-color: #ed138d;
     text-align: center;
-    padding-right: 20px;
-    padding-left: 20px;
+    padding-right: 25px;
+    padding-left: 25px;
     padding-top: 10px;
     padding-bottom: 10px;
     color: white;
     border-radius: 50px;
     font-weight: bold;
-    margin-right: 10px;
+    margin-right: 20px;
     font-size: 1rem;
     :hover {
       background: transparent;
@@ -55,7 +56,7 @@ export const HomeContainer = styled.div`
     border-radius: 50px;
     border: 1px solid white;
     font-weight: bold;
-    margin-right: 10px;
+    margin-right: 20px;
     font-size: 1rem;
     :hover {
       border: 1px solid #ed138d;
@@ -93,7 +94,7 @@ export const HomeContainer = styled.div`
       font-size: 1rem;
       :hover {
         background: transparent;
-        border: 1px solid #ed138d;
+        border: 5px solid #ed138d;
       }
     }
     .link2 {
@@ -109,7 +110,7 @@ export const HomeContainer = styled.div`
       margin-right: 10px;
       font-size: 1rem;
       :hover {
-        border: 1px solid #ed138d;
+        border: 5px solid #ed138d;
       }
     }
   }
