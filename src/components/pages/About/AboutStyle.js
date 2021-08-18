@@ -4,53 +4,54 @@ export const AboutContainer = styled.div`
   background-color: #212121;
   height: 90vh;
   width: 100%;
-  padding-top: 180px;
+  padding-top: 130px;
   font-family: "Roboto", sans-serif;
 
   .about_picture {
     display: flex;
     justify-content: space-around;
+    border: 1px solid yellow;
+    padding: 20px;
   }
-  .background {
-    background-color: #000000;
-    border: 5px solid ;
-    margin-left: 200px;
-    width: 35%;
-    margin-top: 20px;
-  }
+  
   .profile {
-    width: 35%;
+    width: 38%;
+    background-color:#000000; 
+    border: 5px solid #ed138d ;
 
     /* margin-bottom: 20px; */
 
     img {
       width: 100%;
       border: 6px solid #212121;
+      /* margin-left: 20px; */
+      
     }
   }
   .about_profile {
-    border: 1px solid yellow;
+   
     width: 50%;
     margin-right: 20x;
     display: flex;
-    justify-content: space-between;
+    justify-content: end;
+    border: 1px solid red;
   }
   h1 {
     text-align: start;
     color: white;
-    font-size: 1.5rem;
+    font-size:2rem;
     font-family: "Roboto", sans-serif;
     border-bottom: solid 3px #ed138d;
     width: 10%;
     font-weight: bold;
   }
   .title {
-    padding: 5px;
+    padding: 6px;
   }
   .about_speech {
     width: 50%;
     margin-left: 20px;
-    padding: 20px;
+    padding: 30px;
   }
   span {
     color: #ed138d;

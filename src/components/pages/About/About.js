@@ -13,7 +13,7 @@ const About = () => {
           </div>
         </div>
         <div className="about_speech">
-          {" "}
+        
           <div>
             {" "}
             <div className="title">

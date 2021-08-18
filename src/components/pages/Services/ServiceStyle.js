@@ -1,16 +1,18 @@
 import styled from "styled-components";
 export const ServiceConatiner = styled.div`
   background-color: #191919;
-  height: 100vh;
+  height: 80vh;
   width: 100%;
   text-align: center;
   padding: 50px;
   h1 {
     color: white;
     font-size: 1.7rem;
+    font-family: "Roboto", sans-serif;
 
-    /* border-bottom: solid 3px #ed138d; */
+    font-weight: bold;
   }
+
   .Service_card {
     display: flex;
     justify-content: center;
@@ -35,7 +37,7 @@ export const ServiceConatiner = styled.div`
     text-align: center;
     font-family: "Roboto", sans-serif;
   }
-  h1{
+  h1 {
     left: 0;
     right: 0;
     margin: 0 auto;
@@ -51,7 +53,7 @@ export const ServiceConatiner = styled.div`
       background-image: -webkit-linear-gradient(
         left,
         rgba(0, 0, 0, 0),
-        rgb(165, 165, 165),
+        rgb(237, 19, 133),
         rgba(0, 0, 0, 0)
       );
       position: absolute;

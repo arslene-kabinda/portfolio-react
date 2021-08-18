@@ -1,16 +1,17 @@
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faCrop, faCropAlt } from "@fortawesome/free-solid-svg-icons";
 import React from "react";
 import { ServiceConatiner } from "./ServiceStyle";
+import { Icon } from "@iconify/react";
 
 const Service = () => {
   return (
     <ServiceConatiner>
-      <h1> My Services </h1>
+      <div className="title">
+        <h1>My Services</h1>
+      </div>
       <div className="Service_card container">
         <div className="cards">
           <div>
-            <FontAwesomeIcon icon={faCrop} className="icon" />
+            <Icon icon="akar-icons:github-outline-fill" className="icon" />
           </div>
           <div>
             {" "}
@@ -23,7 +24,7 @@ const Service = () => {
         </div>
         <div className="cards">
           <div>
-            <FontAwesomeIcon icon={faCrop} className="icon" />
+            <Icon icon="uit:web-grid" className="icon" />
           </div>
           <h2>UI/UX Research</h2>
           <p>
@@ -33,7 +34,7 @@ const Service = () => {
         </div>
         <div className="cards">
           <div>
-            <FontAwesomeIcon icon={faCropAlt} className="icon" />
+            <Icon icon="uit:web-grid-alt" className="icon" />
           </div>
           <h2>Web Designer</h2>
           <p>

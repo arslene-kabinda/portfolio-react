@@ -3,6 +3,7 @@ import styled from "styled-components";
 import bg from "../../assets/bg.jpg";
 export const HomeContainer = styled.div`
   background-image: url(${bg});
+  
 
   background-size: cover;
   height: 100vh;
@@ -21,7 +22,6 @@ export const HomeContainer = styled.div`
     color: #ed138d;
     font-weight: bold;
     font-size: 3rem;
-    
   }
   .link {
     padding: 30px;
