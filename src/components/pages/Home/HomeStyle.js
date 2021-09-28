@@ -2,8 +2,12 @@ import styled from "styled-components";
 
 import bg from "../../assets/bg.jpg";
 export const HomeContainer = styled.div`
-  background-image: url(${bg});
-  
+  background-image: linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 0.8),
+      rgba(0, 0, 0, 0.8)
+    ),
+    url(${bg});
 
   background-size: cover;
   height: 100vh;
@@ -16,7 +20,7 @@ export const HomeContainer = styled.div`
 
   p {
     color: white;
-    font-size: 1.2rem;
+    font-size: 1.5rem;
   }
   h1 {
     color: #ed138d;
@@ -28,6 +32,7 @@ export const HomeContainer = styled.div`
     margin-top: 30px;
     display: flex;
     justify-content: center;
+    align-items: center;
   }
   .link1 {
     background-color: #ed138d;
@@ -43,7 +48,7 @@ export const HomeContainer = styled.div`
     font-size: 1rem;
     :hover {
       background: transparent;
-      border: 1px solid #ed138d;
+      border: 2px solid #ed138d;
     }
   }
   .link2 {
@@ -59,7 +64,7 @@ export const HomeContainer = styled.div`
     margin-right: 20px;
     font-size: 1rem;
     :hover {
-      border: 1px solid #ed138d;
+      border: 2px solid #ed138d;
     }
   }
   @media (max-width: 767px) {

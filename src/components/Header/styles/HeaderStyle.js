@@ -6,8 +6,5 @@ export const HeaderContainer = styled.div`
   font-family: "Roboto", sans-serif;
   font-size: 1rem;
   justify-content: space-between;
-  padding: 10px;
-  padding-right: 50px;
-  padding-left: 50px;
-  
+  padding: 20px 50px;
 `;
