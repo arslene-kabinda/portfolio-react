@@ -46,6 +46,7 @@ export const HomeContainer = styled.div`
     font-weight: bold;
     margin-right: 20px;
     font-size: 1rem;
+    transition: 0.5s ease-in-out;
     :hover {
       background: transparent;
       border: 2px solid #ed138d;
@@ -61,6 +62,7 @@ export const HomeContainer = styled.div`
     border-radius: 50px;
     border: 1px solid white;
     font-weight: bold;
+    transition: 0.5s ease-in-out;
     margin-right: 20px;
     font-size: 1rem;
     :hover {
