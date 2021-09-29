@@ -85,10 +85,10 @@ export const ProjectContainer = styled.div`
     color: #fff;
     font-family: "Montserrat", sans-serif;
     &::after {
-      border: 2px solid #ed138d;
+      border: 3px solid #ed138d;
       position: absolute;
       width: 50px;
-      height: 0px;
+
       left: 50%;
       transform: translateX(-50%);
       top: 80px;

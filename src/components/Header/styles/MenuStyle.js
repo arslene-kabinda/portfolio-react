@@ -12,4 +12,7 @@ export const MenuContainer = styled.div`
     color: #ed138d;
     font-family: "Montserrat", sans-serif;
   }
+  .navbar-toggler {
+    color: #fff;
+  }
 `;
