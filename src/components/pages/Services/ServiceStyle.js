@@ -1,29 +1,22 @@
 import styled from "styled-components";
 export const ServiceConatiner = styled.div`
   background-color: #191919;
-  height: 100vh;
   width: 100%;
   text-align: center;
   padding: 50px;
-  h1 {
-    color: white;
-    font-size: 1.7rem;
-    font-family: "Roboto", sans-serif;
-
-    font-weight: bold;
-  }
 
   .Service_card {
     display: flex;
     justify-content: center;
-    padding-top: 50px;
+    padding-top: 30px;
+    width: 100%;
   }
   .cards {
     background-color: #000000;
     height: 220px;
-    width: 200px;
+    width: 25%;
     border-radius: 5px;
-    margin: 60px;
+    margin: 2rem;
     display: flex;
     flex-direction: column;
     justify-content: start;
@@ -35,7 +28,7 @@ export const ServiceConatiner = styled.div`
     color: white;
 
     text-align: center;
-    font-family: "Roboto", sans-serif;
+    font-family: "Montserrat", sans-serif;
   }
   h1 {
     left: 0;
@@ -48,32 +41,25 @@ export const ServiceConatiner = styled.div`
     line-height: 1.3;
     text-transform: capitalize;
     color: #fff;
-    font-family: "Roboto", sans-serif;
+    font-family: "Montserrat", sans-serif;
     &::after {
-      background-image: -webkit-linear-gradient(
-        left,
-        rgba(0, 0, 0, 0),
-        rgb(237, 19, 133),
-        rgba(0, 0, 0, 0)
-      );
+      border: 2px solid #ed138d;
       position: absolute;
-      left: 0;
-      right: 0;
-      height: 2px;
-      /* background-color: #ed138d; */
-      width: 100%;
+      width: 50px;
+      height: 0px;
+      left: 50%;
+      transform: translateX(-50%);
+      top: 60px;
       content: "";
       bottom: 0px;
-      max-width: 100px;
       margin: 0 auto;
     }
   }
   p {
     font-size: 0.8rem;
     text-align: center;
-
     color: white;
-    font-family: "Roboto", sans-serif;
+    font-family: "Montserrat", sans-serif;
   }
   .git {
     border: 1px solid black;
@@ -85,7 +71,7 @@ export const ServiceConatiner = styled.div`
     padding-bottom: 10px;
   }
   @media only screen and (max-width: 600px) {
-    background-color: #191919;
+    /* background-color: #191919;
     height: 120vh;
     width: 100%;
     text-align: center;
@@ -151,7 +137,6 @@ export const ServiceConatiner = styled.div`
         left: 0;
         right: 0;
         height: 2px;
-        /* background-color: #ed138d; */
         width: 100%;
         content: "";
         bottom: 0px;
@@ -174,6 +159,6 @@ export const ServiceConatiner = styled.div`
       font-size: 3rem;
       padding-top: 10px;
       padding-bottom: 10px;
-    }
+    } */
   }
 `;

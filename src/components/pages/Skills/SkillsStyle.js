@@ -18,22 +18,17 @@ export const SkillsContainer = styled.div`
     line-height: 1.3;
     text-transform: capitalize;
     color: #fff;
-    font-family: "Roboto", sans-serif;
+    font-family: "Montserrat", sans-serif;
     &::after {
-      background-image: -webkit-linear-gradient(
-        left,
-        rgba(0, 0, 0, 0),
-        rgb(237, 19, 133),
-        rgba(0, 0, 0, 0)
-      );
+      border: 2px solid #ed138d;
       position: absolute;
-      left: 0;
-      right: 0;
-      height: 2px;
-      width: 100%;
+      width: 50px;
+      height: 0px;
+      left: 50%;
+      transform: translateX(-50%);
+      top: 60px;
       content: "";
       bottom: 0px;
-      max-width: 100px;
       margin: 0 auto;
     }
   }

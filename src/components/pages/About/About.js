@@ -13,13 +13,8 @@ const About = () => {
           </div>
         </div>
         <div className="about_speech">
-        
           <div>
-            {" "}
-            <div className="title">
-              {" "}
-              <h1>About</h1>
-            </div>
+            <h1>About me</h1>
             <p>
               <span>who am I ?</span>
             </p>
@@ -27,22 +22,18 @@ const About = () => {
               I am Arslène Kabinda Fullstact Developer, passionate about digital
               and specialized in the field of web and mobile web
               development.lorem ipsum dolor amet sit agua eta manus jugurta
-              lorem ipsum 
+              lorem ipsum
             </p>
           </div>
           <div className="link">
             <div>
-              <a
-                className="link1"
-                href="#Get my Cv
-"
-              >
+              <a className="link1" href="#Get my Cv">
                 Contact me
               </a>
             </div>
             <div>
               <a className="link2" href="#Contact me">
-                see projects
+                See my realisations
               </a>
             </div>
           </div>

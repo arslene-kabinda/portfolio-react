@@ -4,12 +4,11 @@ import { SkillsContainer } from "./SkillsStyle";
 const Skills = () => {
   return (
     <SkillsContainer>
-      <h1>Skills</h1>
+      <h1> Skills</h1>
       <div className="skills_container container">
         <div className="skills_1">
           <div className="skills_value">
             <div className="d-flex value">
-              {" "}
               <div>
                 <p>Html5</p>
               </div>
@@ -80,7 +79,7 @@ const Skills = () => {
             </div>
           </div>
           <div className="skills_value">
-            <div className="d-flex value" >
+            <div className="d-flex value">
               {" "}
               <div>
                 <p>Mysql</p>
@@ -94,7 +93,7 @@ const Skills = () => {
             </div>
           </div>
           <div className="skills_value">
-            <div className="d-flex value" >
+            <div className="d-flex value">
               {" "}
               <div>
                 <p>Wordpress</p>
@@ -108,7 +107,7 @@ const Skills = () => {
             </div>
           </div>
           <div className="skills_value">
-            <div className="d-flex value" >
+            <div className="d-flex value">
               {" "}
               <div>
                 <p>NodeJs</p>
