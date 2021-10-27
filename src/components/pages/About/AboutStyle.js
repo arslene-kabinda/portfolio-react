@@ -4,21 +4,19 @@ export const AboutContainer = styled.div`
   background-color: #212121;
   padding-bottom: 3rem;
   width: 100%;
-  border: 1px solid red;
+
   font-family: "Montserrat", sans-serif;
   .about_picture {
     display: flex;
-    border: 1px solid green;
+
     justify-content: center;
   }
   .about_profile {
-    border: 1px solid pink;
     width: 45%;
     display: flex;
     margin: 1rem;
     position: relative;
     justify-content: end;
-    border: 1px solid blue;
   }
   .background {
     background: #000000;
@@ -27,7 +25,7 @@ export const AboutContainer = styled.div`
     position: absolute;
     width: 250px;
     height: 315px;
-    left: 222px;
+    right: 15px;
     top: 100px;
   }
 
@@ -35,8 +33,7 @@ export const AboutContainer = styled.div`
     width: 50%;
     position: absolute;
     width: 250px;
-    height: 220px;
-    left: 238px;
+    right: 0;
     top: 67px;
     box-sizing: border-box;
     img {
@@ -132,21 +129,17 @@ export const AboutContainer = styled.div`
     padding-bottom: 2rem;
     width: 100%;
     font-family: "Montserrat", sans-serif;
-    border: 1px solid red;
+
     .about_picture {
       display: flex;
       flex-direction: column;
-      border: 1px solid green;
-     
     }
     .about_profile {
+      height: 400px;
       width: 90%;
       display: flex;
       margin: 1rem;
       position: relative;
-      border: 1px solid blue;
-      /* justify-content: end; */
-      
     }
     .background {
       background: #000000;
@@ -155,17 +148,19 @@ export const AboutContainer = styled.div`
       position: absolute;
       width: 250px;
       height: 315px;
-      left: 222px;
-      top: 100px;
+      right: 50%;
+      transform: translateX(45%);
+      top: 80px;
     }
 
     .profile {
       width: 50%;
       position: absolute;
       width: 250px;
-      height: 220px;
-      left: 238px;
-      top: 67px;
+
+      right: 50%;
+      transform: translateX(50%);
+      top: 50px;
       box-sizing: border-box;
       img {
         width: 100%;
@@ -173,10 +168,11 @@ export const AboutContainer = styled.div`
     }
 
     .about_speech {
-      border: 1px solid pink;
-      width: 45%;
-      margin: 1rem;
-      padding: 4rem 1rem;
+      width: 100%;
+      justify-content: center;
+      align-items: center;
+      margin: 0rem;
+      padding: 1rem !important;
 
       h1 {
         position: relative;
@@ -188,6 +184,7 @@ export const AboutContainer = styled.div`
         padding-bottom: 1rem;
         font-size: 1.8rem;
         line-height: 1.3;
+        text-align: center;
         text-transform: capitalize;
         color: #fff;
         font-family: "Montserrat", sans-serif;
@@ -199,8 +196,8 @@ export const AboutContainer = styled.div`
           top: 43px;
           content: "";
           bottom: 0px;
-          left: 0%;
-          transform: translateX(50%);
+          left: 50%;
+          transform: translateX(-50%);
           margin: 0 auto;
         }
       }
@@ -209,30 +206,34 @@ export const AboutContainer = styled.div`
     span {
       color: #ed138d;
       font-size: 1.2rem;
+      text-align: center;
       font-weight: bold;
       font-family: "Montserrat", sans-serif;
     }
     p {
       color: white;
+      text-align: center;
       font-family: "Montserrat", sans-serif;
     }
     .link {
       margin-top: 30px;
       display: flex;
-      justify-content: start;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
     }
     .link1 {
       background-color: #ed138d;
       text-align: center;
-      padding-right: 20px;
-      padding-left: 20px;
+      padding-right: 10px;
+      padding-left: 10px;
       padding-top: 10px;
       padding-bottom: 10px;
       font-weight: bold;
       color: white;
       border-radius: 50px;
       transition: 0.5s ease-in-out;
-      margin-right: 20px;
+      margin-right: 10px;
       font-size: 1rem;
       :hover {
         background: transparent;
@@ -241,8 +242,8 @@ export const AboutContainer = styled.div`
     }
     .link2 {
       text-align: center;
-      padding-right: 20px;
-      padding-left: 20px;
+      padding-right: 10px;
+      padding-left: 10px;
       padding-top: 10px;
       padding-bottom: 10px;
       color: white;
@@ -250,7 +251,7 @@ export const AboutContainer = styled.div`
       border-radius: 50px;
       border: 1px solid white;
       transition: 0.5s ease-in-out;
-      margin-right: 20px;
+      margin-right: 1px;
       font-size: 1rem;
       :hover {
         border: 2px solid #ed138d;

@@ -114,7 +114,7 @@ export const SkillsContainer = styled.div`
   }
   @media only screen and (max-width: 600px) {
     background-color: #212121;
-    height: 100vh;
+
     width: 100%;
 
     padding: 10px;
@@ -127,27 +127,21 @@ export const SkillsContainer = styled.div`
       position: relative;
       font-weight: 500;
       padding-bottom: 20px;
-      padding-top: 20px;
-      font-size: 20px;
+      font-size: 2rem;
       line-height: 1.3;
       text-transform: capitalize;
       color: #fff;
-      font-family: "Roboto", sans-serif;
+      font-family: "Montserrat", sans-serif;
       &::after {
-        background-image: -webkit-linear-gradient(
-          left,
-          rgba(0, 0, 0, 0),
-          rgb(237, 19, 133),
-          rgba(0, 0, 0, 0)
-        );
+        border: 3px solid #ed138d;
         position: absolute;
-        left: 0;
-        right: 0;
-        height: 2px;
-        width: 100%;
+        width: 50px;
+        height: 0px;
+        left: 50%;
+        transform: translateX(-50%);
+        top: 60px;
         content: "";
         bottom: 0px;
-        max-width: 100px;
         margin: 0 auto;
       }
     }

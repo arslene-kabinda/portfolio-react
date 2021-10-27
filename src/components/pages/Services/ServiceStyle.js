@@ -70,40 +70,31 @@ export const ServiceConatiner = styled.div`
     padding-top: 10px;
     padding-bottom: 10px;
   }
-  @media only screen and (max-width: 600px) {
-    /* background-color: #191919;
-    height: 120vh;
+  @media only screen and (max-width: 678px) {
+    background-color: #191919;
     width: 100%;
     text-align: center;
-    padding: 10px;
-    h1 {
-      color: white;
-      font-size: 1.2rem;
-      font-family: "Roboto", sans-serif;
-
-      font-weight: bold;
-    }
+    padding: 50px;
 
     .Service_card {
       display: flex;
       flex-direction: column;
+      flex-wrap: wrap;
       justify-content: center;
-      margin-top: 20px;
-
-      height: 100vh;
-      padding: 0 !important;
+      padding: 10px;
       width: 100%;
     }
     .cards {
       background-color: #000000;
-      height: 350px;
-      width: 97%;
+      height: 220px;
+      width: 100%;
       border-radius: 5px;
-      margin: 5px;
+      margin: 0 !important;
+      margin-top: 2rem !important;
       display: flex;
       flex-direction: column;
-      justify-content: center;
-      padding: 10px;
+      justify-content: start;
+      padding: 15px;
     }
     h2 {
       font-size: 1rem;
@@ -111,7 +102,7 @@ export const ServiceConatiner = styled.div`
       color: white;
 
       text-align: center;
-      font-family: "Roboto", sans-serif;
+      font-family: "Montserrat", sans-serif;
     }
     h1 {
       left: 0;
@@ -119,37 +110,30 @@ export const ServiceConatiner = styled.div`
       margin: 0 auto;
       position: relative;
       font-weight: 500;
-      padding-bottom: 10px;
-      padding-top: 20px;
-      font-size: 20px;
+      padding-bottom: 20px;
+      font-size: 2rem;
       line-height: 1.3;
       text-transform: capitalize;
       color: #fff;
-      font-family: "Roboto", sans-serif;
+      font-family: "Montserrat", sans-serif;
       &::after {
-        background-image: -webkit-linear-gradient(
-          left,
-          rgba(0, 0, 0, 0),
-          rgb(237, 19, 133),
-          rgba(0, 0, 0, 0)
-        );
+        border: 3px solid #ed138d;
         position: absolute;
-        left: 0;
-        right: 0;
-        height: 2px;
-        width: 100%;
+        width: 50px;
+        height: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        top: 60px;
         content: "";
         bottom: 0px;
-        max-width: 100px;
         margin: 0 auto;
       }
     }
     p {
       font-size: 0.8rem;
       text-align: center;
-
       color: white;
-      font-family: "Roboto", sans-serif;
+      font-family: "Montserrat", sans-serif;
     }
     .git {
       border: 1px solid black;
@@ -159,6 +143,6 @@ export const ServiceConatiner = styled.div`
       font-size: 3rem;
       padding-top: 10px;
       padding-bottom: 10px;
-    } */
+    }
   }
 `;

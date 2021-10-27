@@ -14,5 +14,6 @@ export const MenuContainer = styled.div`
   }
   .navbar-toggler {
     color: #fff;
+    font-size: 1.7rem;
   }
 `;
