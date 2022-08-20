@@ -1,10 +1,11 @@
 import styled from "styled-components";
 export const SkillsContainer = styled.div`
   background-color: #212121;
-  height: 80vh;
+
   width: 100%;
 
   padding: 50px;
+  padding-bottom: 1rem;
 
   h1 {
     text-align: center;
@@ -72,7 +73,7 @@ export const SkillsContainer = styled.div`
   }
   .skills_level2 {
     background-color: #ed138d;
-    width: 75%;
+    width: 70%;
 
     padding-top: 5px;
   }
@@ -84,29 +85,29 @@ export const SkillsContainer = styled.div`
   }
   .skills_level4 {
     background-color: #ed138d;
-    width: 70%;
+    width: 65%;
 
     padding-top: 5px;
   }
   .skills_level5 {
     background-color: #ed138d;
-    width: 65%;
+    width: 70%;
 
     padding-top: 5px;
   }
   .skills_level6 {
     background-color: #ed138d;
-    width: 55%;
+    width: 50%;
 
     padding-top: 5px;
   }
   .skills_level7 {
     background-color: #ed138d;
-    width: 40%;
+    width: 75%;
 
     padding-top: 5px;
   }
-  .skills_level2 {
+  .skills_level8 {
     background-color: #ed138d;
     width: 60%;
 

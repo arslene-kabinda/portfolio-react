@@ -17,8 +17,8 @@ const Service = () => {
             {" "}
             <h2> Web Development</h2>
             <p>
-              orem ipsum dolor amet sit agua eta manus jugurta lorem ipsum dolor
-              amet sit agua eta manus jugurta{" "}
+              realization of all the technical functionalities of a website or a
+              web application.
             </p>
           </div>
         </div>
@@ -28,8 +28,9 @@ const Service = () => {
           </div>
           <h2>UI/UX Research</h2>
           <p>
-            orem ipsum dolor amet sit agua eta manus jugurta lorem ipsum dolor
-            amet sit agua eta manus jugurta{" "}
+            techniques allowing to think and create interfaces, meeting the
+            expectations of the user when designing a platform (website or
+            mobile application).
           </p>
         </div>
         <div className="cards">
@@ -38,8 +39,8 @@ const Service = () => {
           </div>
           <h2>Web Designer</h2>
           <p>
-            orem ipsum dolor amet sit agua eta manus jugurta lorem ipsum dolor
-            amet sit agua eta manus jugurta{" "}
+            design and realization of the visual aspect of a website or an
+            application.
           </p>
         </div>
       </div>

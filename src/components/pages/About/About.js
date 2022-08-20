@@ -1,6 +1,6 @@
 import React from "react";
 import { AboutContainer } from "./AboutStyle";
-import profile from "../../assets/arsy.jpeg";
+import profile from "../../assets/ars.jpeg";
 
 const About = () => {
   return (
@@ -19,15 +19,16 @@ const About = () => {
               <span>who am I ?</span>
             </p>
             <p>
-              I am Arslène Kabinda Fullstact Developer, passionate about digital
-              and specialized in the field of web and mobile web
-              development.lorem ipsum dolor amet sit agua eta manus jugurta
-              lorem ipsum
+              I am Arslène Kabinda Fullstact Developer. Gifted with great
+              curiosity and passionate about the world of digital, I turned to
+              web and mobile development to transmit my knowledge and apply my
+              skills at the service of all for a continuous improvement in this
+              area.
             </p>
           </div>
           <div className="link">
             <div>
-              <a className="link1" href="#Get my Cv">
+              <a className="link1" href="mailto: arskabinda@gmail.com">
                 Contact me
               </a>
             </div>
@@ -43,3 +44,4 @@ const About = () => {
   );
 };
 export default About;
+<a href="mailto: arskabinda@gmail.com">arskabinda@gmail.com</a>;

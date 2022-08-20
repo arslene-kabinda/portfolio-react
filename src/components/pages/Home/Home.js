@@ -20,7 +20,7 @@ const Home = () => {
           </a>
         </div>
         <div>
-          <a className="link2" href="#Contact me">
+          <a className="link2" href="mailto: arskabinda@gmail.com">
             Contact me
           </a>
         </div>

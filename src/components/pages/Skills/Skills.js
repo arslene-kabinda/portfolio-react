@@ -22,12 +22,11 @@ const Skills = () => {
           </div>
           <div className="skills_value">
             <div className="d-flex value">
-              {" "}
               <div>
                 <p>Css3</p>
               </div>
               <div>
-                <p>75%</p>
+                <p>70%</p>
               </div>
             </div>
             <div className="skills_level">
@@ -55,11 +54,25 @@ const Skills = () => {
                 <p>Sass</p>
               </div>
               <div>
-                <p>70%</p>
+                <p>65%</p>
               </div>
             </div>
             <div className="skills_level">
               <div className="skills_level4"></div>
+            </div>
+          </div>
+          <div className="skills_value">
+            <div className="d-flex value">
+              {" "}
+              <div>
+                <p>Reactjs</p>
+              </div>
+              <div>
+                <p>70%</p>
+              </div>
+            </div>
+            <div className="skills_level">
+              <div className="skills_level5"></div>
             </div>
           </div>
         </div>
@@ -68,24 +81,10 @@ const Skills = () => {
             <div className="d-flex value">
               {" "}
               <div>
-                <p>Reactjs</p>
-              </div>
-              <div>
-                <p>65%</p>
-              </div>
-            </div>
-            <div className="skills_level">
-              <div className="skills_level5"></div>
-            </div>
-          </div>
-          <div className="skills_value">
-            <div className="d-flex value">
-              {" "}
-              <div>
                 <p>Mysql</p>
               </div>
               <div>
-                <p>55%</p>
+                <p>50%</p>
               </div>
             </div>
             <div className="skills_level">
@@ -99,7 +98,7 @@ const Skills = () => {
                 <p>Wordpress</p>
               </div>
               <div>
-                <p>40%</p>
+                <p>75%</p>
               </div>
             </div>
             <div className="skills_level">
@@ -110,14 +109,28 @@ const Skills = () => {
             <div className="d-flex value">
               {" "}
               <div>
-                <p>NodeJs</p>
+                <p>NodeJs-Express</p>
               </div>
               <div>
                 <p>60%</p>
               </div>
             </div>
             <div className="skills_level">
-              <div className="skills_level1"></div>
+              <div className="skills_level8"></div>
+            </div>
+          </div>
+          <div className="skills_value">
+            <div className="d-flex value">
+              {" "}
+              <div>
+                <p>MongoDB</p>
+              </div>
+              <div>
+                <p>60%</p>
+              </div>
+            </div>
+            <div className="skills_level">
+              <div className="skills_level8"></div>
             </div>
           </div>
         </div>
