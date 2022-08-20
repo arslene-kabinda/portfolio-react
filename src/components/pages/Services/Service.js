@@ -29,8 +29,7 @@ const Service = () => {
           <h2>UI/UX Research</h2>
           <p>
             techniques allowing to think and create interfaces, meeting the
-            expectations of the user when designing a platform (website or
-            mobile application).
+            expectations of the user when designing a platform.
           </p>
         </div>
         <div className="cards">

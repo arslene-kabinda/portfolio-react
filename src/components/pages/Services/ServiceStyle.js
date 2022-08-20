@@ -123,7 +123,7 @@ export const ServiceConatiner = styled.div`
         height: 0;
         left: 50%;
         transform: translateX(-50%);
-        top: 60px;
+        top: 85px;
         content: "";
         bottom: 0px;
         margin: 0 auto;

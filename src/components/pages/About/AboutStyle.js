@@ -147,10 +147,10 @@ export const AboutContainer = styled.div`
       box-sizing: border-box;
       position: absolute;
       width: 250px;
-      height: 315px;
+      height: 215px;
       right: 50%;
       transform: translateX(45%);
-      top: 80px;
+      top: 110px;
     }
 
     .profile {
@@ -160,7 +160,7 @@ export const AboutContainer = styled.div`
 
       right: 50%;
       transform: translateX(50%);
-      top: 50px;
+      top: 80px;
       box-sizing: border-box;
       img {
         width: 100%;
