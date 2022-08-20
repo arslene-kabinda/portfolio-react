@@ -24,9 +24,9 @@ export const AboutContainer = styled.div`
     box-sizing: border-box;
     position: absolute;
     width: 250px;
-    height: 315px;
+    height: 215px;
     right: 15px;
-    top: 100px;
+    top: 130px;
   }
 
   .profile {
@@ -34,7 +34,7 @@ export const AboutContainer = styled.div`
     position: absolute;
     width: 250px;
     right: 0;
-    top: 67px;
+    top: 97px;
     box-sizing: border-box;
     img {
       width: 100%;
@@ -228,6 +228,9 @@ export const AboutContainer = styled.div`
     .containerlink {
       padding: 1rem;
       margin: 1rem;
+      /* margin-right: 0px; */
+      justify-content: center;
+      align-items: center;
     }
     .link1 {
       background-color: #ed138d;
@@ -238,7 +241,7 @@ export const AboutContainer = styled.div`
       color: white;
       border-radius: 50px;
       transition: 0.5s ease-in-out;
-      margin-bottom: 10px;
+      margin: 10px;
 
       font-size: 1rem;
       :hover {
