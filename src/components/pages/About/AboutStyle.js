@@ -216,24 +216,30 @@ export const AboutContainer = styled.div`
       font-family: "Montserrat", sans-serif;
     }
     .link {
-      margin-top: 30px;
+      margin-top: 10px;
+      padding: 1rem;
       display: flex;
+      flex-direction: column;
       flex-wrap: wrap;
-      justify-content: center;
+      justify-content: space-around;
       align-items: center;
+      /* border: 1px solid red; */
+    }
+    .containerlink {
+      padding: 1rem;
+      margin: 1rem;
     }
     .link1 {
       background-color: #ed138d;
       text-align: center;
-      padding-right: 10px;
-      padding-left: 10px;
-      padding-top: 10px;
-      padding-bottom: 10px;
+      padding: 10px;
+
       font-weight: bold;
       color: white;
       border-radius: 50px;
       transition: 0.5s ease-in-out;
-      margin-right: 10px;
+      margin-bottom: 10px;
+
       font-size: 1rem;
       :hover {
         background: transparent;
@@ -242,16 +248,14 @@ export const AboutContainer = styled.div`
     }
     .link2 {
       text-align: center;
-      padding-right: 10px;
-      padding-left: 10px;
-      padding-top: 10px;
-      padding-bottom: 10px;
+      padding: 10px;
+
       color: white;
       font-weight: bold;
       border-radius: 50px;
       border: 1px solid white;
       transition: 0.5s ease-in-out;
-      margin-right: 1px;
+      margin: 10px;
       font-size: 1rem;
       :hover {
         border: 2px solid #ed138d;

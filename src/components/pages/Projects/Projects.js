@@ -1,11 +1,8 @@
 import React from "react";
 import { ProjectContainer } from "./ProjetStyle";
-import image from "../../assets/kd.png";
 import movie from "../../assets/movie.png";
 import portfolio from "../../assets/portfolio.png";
-import bac from "../../assets/bac1.png";
-import form from "../../assets/formulaire.png";
-import rep from "../../assets/rep.png";
+import bac from "../../assets/bac.png";
 import laprunelle from "../../assets/laprunelle.png";
 import thepost from "../../assets/thepost.png";
 import environews from "../../assets/environews.png";
@@ -56,7 +53,7 @@ const Projects = () => {
             <p>Project Detail</p>
             <div className="container_icon">
               <div>
-                <a href="https://github.com/arslene-kabinda/portfolio-REact">
+                <a href="https://github.com/arslene-kabinda/portfolio-react">
                   <Icon
                     icon="akar-icons:github-outline-fill"
                     className="icon"
@@ -106,20 +103,20 @@ const Projects = () => {
           </div>
         </div>
         <div className="card image">
-          <img src={rep} alt=" project_profile" />
+          <img src={bac} alt=" project_profile" />
           <div className="card_content">
             <p>Project Detail</p>
             <div className="container_icon">
-              <div>
-                <a href="https://github.com/arslene-kabinda/portfolio-REact">
+              {/* <div>
+                <a href="https://github.com/arslene-kabinda/projet-clone-du-site-kinshasa-digital">
                   <Icon
                     icon="akar-icons:github-outline-fill"
                     className="icon"
                   />
                 </a>
-              </div>
+              </div> */}
               <div>
-                <a href="https://github.com/arslene-kabinda/portfolio-REact">
+                <a href="https://www.bacmd.net//">
                   <Icon icon="bi:link-45deg" className="icon" />
                 </a>
               </div>

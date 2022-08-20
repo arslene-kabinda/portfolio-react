@@ -18,27 +18,27 @@ const Menu = () => {
       <div className="collapse navbar-collapse" id="navbarSupportedContent">
         <ul className="navbar-nav me-auto mb-2 mb-lg-0 group_items">
           <li className="nav-item">
-            <a className="nav-link" href="#Home">
+            <a className="nav-link" href="# home">
               <span>Home</span>
             </a>
           </li>
           <li className="nav-item">
-            <a className="nav-link" href="#About">
+            <a className="nav-link" href="# about">
               About
             </a>
           </li>
           <li className="nav-item">
-            <a className="nav-link" href="#Skills">
+            <a className="nav-link" href="# skills">
               Skills
             </a>
           </li>
           <li className="nav-item">
-            <a className="nav-link" href="#Projects">
+            <a className="nav-link" href="# projects">
               Projects
             </a>
           </li>
           <li className="nav-item">
-            <a className="nav-link" href="#Contact">
+            <a className="nav-link" href="# Contact">
               Contact
             </a>
           </li>

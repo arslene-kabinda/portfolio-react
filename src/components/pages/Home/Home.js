@@ -10,7 +10,7 @@ const Home = () => {
         <p> Full Stack Develloper, UI and UX Designer</p>
       </div>
       <div className="link container">
-        <div>
+        <div className="linkcontainer">
           <a
             className="link1"
             href="#Get my Cv
@@ -19,7 +19,7 @@ const Home = () => {
             Get my Cv
           </a>
         </div>
-        <div>
+        <div className="linkcontainer">
           <a className="link2" href="mailto: arskabinda@gmail.com">
             Contact me
           </a>

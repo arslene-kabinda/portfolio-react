@@ -13,20 +13,20 @@ export const HomeContainer = styled.div`
   height: 100vh;
   width: 100%;
   position: relative;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   padding-top: 230px;
   text-align: center;
 
   p {
     color: white;
     font-size: 1.5rem;
-    font-family: 'Montserrat', sans-serif;
+    font-family: "Montserrat", sans-serif;
   }
   h1 {
     color: #ed138d;
     font-weight: bold;
     font-size: 3rem;
-    font-family: 'Montserrat', sans-serif;
+    font-family: "Montserrat", sans-serif;
   }
   .link {
     padding: 30px;
@@ -34,7 +34,7 @@ export const HomeContainer = styled.div`
     display: flex;
     justify-content: center;
     align-items: center;
-    font-family: 'Montserrat', sans-serif;
+    font-family: "Montserrat", sans-serif;
   }
   .link1 {
     background-color: #ed138d;
@@ -85,9 +85,14 @@ export const HomeContainer = styled.div`
     }
     .link {
       padding: 30px;
-      margin-top: 25px;
+      margin-top: 1rem;
       display: flex;
+      flex-direction: column;
+      align-items: center;
       justify-content: center;
+    }
+    .linkcontainer {
+      margin: 1rem;
     }
     .link1 {
       background-color: #ed138d;

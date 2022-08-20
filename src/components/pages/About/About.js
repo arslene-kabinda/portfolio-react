@@ -27,13 +27,13 @@ const About = () => {
             </p>
           </div>
           <div className="link">
-            <div>
+            <div className="containerlink">
               <a className="link1" href="mailto: arskabinda@gmail.com">
                 Contact me
               </a>
             </div>
-            <div>
-              <a className="link2" href="#Contact me">
+            <div >
+              <a className="link2" href="# projects">
                 See my realisations
               </a>
             </div>
@@ -44,4 +44,4 @@ const About = () => {
   );
 };
 export default About;
-<a href="mailto: arskabinda@gmail.com">arskabinda@gmail.com</a>;
+
