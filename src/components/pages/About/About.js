@@ -4,7 +4,7 @@ import profile from "../../assets/ars.jpeg";
 
 const About = () => {
   return (
-    <AboutContainer>
+    <AboutContainer id="about">
       <div className="container about_picture">
         <div className=" about_profile">
           <div className="background"></div>
@@ -32,8 +32,8 @@ const About = () => {
                 Contact me
               </a>
             </div>
-            <div >
-              <a className="link2" href="# projects">
+            <div>
+              <a className="link2" href="#projects">
                 See my realisations
               </a>
             </div>
@@ -44,4 +44,3 @@ const About = () => {
   );
 };
 export default About;
-

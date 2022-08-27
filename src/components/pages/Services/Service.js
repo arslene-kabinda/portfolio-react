@@ -4,7 +4,7 @@ import { Icon } from "@iconify/react";
 
 const Service = () => {
   return (
-    <ServiceConatiner>
+    <ServiceConatiner id="services">
       <div className="title">
         <h1>Services</h1>
       </div>

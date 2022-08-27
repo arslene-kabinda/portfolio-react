@@ -10,7 +10,7 @@ import { Icon } from "@iconify/react";
 
 const Projects = () => {
   return (
-    <ProjectContainer>
+    <ProjectContainer id="projects">
       <h1>Projects</h1>
       <div className="d-flex container Card">
         <div className="card image">
